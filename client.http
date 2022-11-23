@@ -1,0 +1,100 @@
+GET http://localhost:8000/addresses/3/12.857/77.590
+Accept: application/json
+
+###
+GET http://localhost:8000/addresses/
+Accept: application/json
+
+###
+POST http://localhost:8000/addresses/
+Content-Type: application/json
+
+{
+    "first_name": "Alok",
+    "last_name": "Kumar",
+    "line1": "Near Parathe Wali Gali",
+    "line2": "Rauapur",
+    "city": "Jharanagar",
+    "state": "Karnatka",
+    "pin": "560045",
+    "lat": 12.858,
+    "long": 77.591,
+    "email": "alok@gmail.com",
+    "label": "Home"
+  }
+
+###
+
+POST http://localhost:8000/addresses/
+Content-Type: application/json
+
+{
+    "first_name": "Prasad",
+    "last_name": "Jha",
+    "line1": "Near Chola Bhatura Gali",
+    "line2": "Rauapur",
+    "city": "Jharanagar",
+    "state": "Karnatka",
+    "pin": "560083",
+    "lat": 12.846,
+    "long": 77.587,
+    "email": "prasad@gmail.com",
+    "label": "Home"
+  }
+
+###
+
+POST http://localhost:8000/addresses/
+Content-Type: application/json
+
+{
+    "first_name": "Pramod",
+    "last_name": "Kumar",
+    "line1": "Near Dosa Gali",
+    "line2": "Rauapur",
+    "city": "Bangalore",
+    "state": "Karnatka",
+    "pin": "560076",
+    "lat": 12.862,
+    "long": 77.614,
+    "email": "pramod@gmail.com",
+    "label": "Home"
+  }
+
+###
+
+POST http://localhost:8000/addresses
+Content-Type: application/json
+
+{
+    "first_name": "R N",
+    "last_name": "Mahto",
+    "line1": "Near Pahari Gali",
+    "line2": "Jyotsimath",
+    "city": "Paharganj",
+    "state": "Uttarakhand",
+    "pin": "24644",
+    "lat": 30.550,
+    "long": 79.566,
+    "email": "rnmah@gmail.com",
+    "label": "Home"
+}
+
+###
+
+POST http://localhost:8000/addresses/
+Content-Type: application/json
+
+{
+    "first_name": "mansi",
+    "last_name": "kumari",
+    "line1": "Near Pahari mandir",
+    "line2": "Jyotsimath",
+    "city": "Paharganj",
+    "state": "Uttarakhand",
+    "pin": "246446",
+    "lat": 30.550,
+    "long": 79.566,
+    "email": "mansi@gmail.com",
+    "label": "Home"
+}
