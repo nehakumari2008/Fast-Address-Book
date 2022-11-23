@@ -1,16 +1,16 @@
 ## Fast Address Book
 
 ### How to run
-1 Create python virtual environment 
+Create python virtual environment 
 ```
 python3 -m virtualenv venv
 ```
-2 Install requirements file 
+Install requirements file 
 ```
 pip install -r requirements.txt
 ```
 
-2 Run
+Run
 ```
 - uvicorn main:app --reload
 ```
