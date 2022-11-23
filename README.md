@@ -16,31 +16,31 @@ pip install -r requirements.txt
 ```
 
 ### APIs
-1 To get all the addresses
+To get all the addresses
 ```
 http://localhost:8000/addresses
 ```
-2 To get addresses by id
+To get addresses by id
 ```
 http://localhost:8000/addresses/{id}
 ```
-3 To get addresses by email_id
+To get addresses by email_id
 ```
 http://localhost:8000/addresses/email/{emailid}
 ```
-4 To get the addresses by distance and lat long.
+To get the addresses by distance and lat long.
 ```
 http://localhost:8000/addresses/{distance}/{lat}/{long}
 ```
-5 To create an addresses
+To create an addresses
 ```
 http://localhost:8000/addresses
 ```
-6 To delete an addresses
+To delete an addresses
 ```
 http://localhost:8000/addresses/{id}
 ```
-7 To update an addresses
+To update an addresses
 ```
 http://localhost:8000/addresses/{id}
 ```
