@@ -18,29 +18,29 @@ uvicorn main:app --reload
 ### APIs
 To get all the addresses
 ```
-http://localhost:8000/addresses
+GET http://localhost:8000/addresses
 ```
 To get addresses by id
 ```
-http://localhost:8000/addresses/{id}
+GET http://localhost:8000/addresses/{id}
 ```
 To get addresses by email_id
 ```
-http://localhost:8000/addresses/email/{emailid}
+GET http://localhost:8000/addresses/email/{emailid}
 ```
 To get the addresses by distance and lat long.
 ```
-http://localhost:8000/addresses/{distance}/{lat}/{long}
+GET http://localhost:8000/addresses/{distance}/{lat}/{long}
 ```
 To create an addresses
 ```
-http://localhost:8000/addresses
+POST http://localhost:8000/addresses
 ```
 To delete an addresses
 ```
-http://localhost:8000/addresses/{id}
+DELETE http://localhost:8000/addresses/{id}
 ```
 To update an addresses
 ```
-http://localhost:8000/addresses/{id}
+PATCH http://localhost:8000/addresses/{id}
 ```
