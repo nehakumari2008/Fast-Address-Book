@@ -1,13 +1,13 @@
-from sqlalchemy import Boolean, Column, ForeignKey, Integer, String, Float
-from sqlalchemy.orm import relationship
+from sqlalchemy import Column, Integer, String, Float
 
 from database import Base
 
 
+# Main model for holding the address details
 class Address(Base):
     __tablename__ = "address"
 
-    id = Column(Integer, primary_key=True, index=True)
+    id = Column(Integer, primary_key=True, index=True, )
     first_name = Column(String)
     last_name = Column(String)
     line1 = Column(String)
@@ -19,5 +19,3 @@ class Address(Base):
     long = Column(Float)
     email = Column(String, index=True)
     label = Column(String)
-
-

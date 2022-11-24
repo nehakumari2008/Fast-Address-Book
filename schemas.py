@@ -1,7 +1,9 @@
-from pydantic import BaseModel
 from typing import Optional
 
+from pydantic import BaseModel
 
+
+# Most of the fields are optional for fast prototyping
 class Address(BaseModel):
     id: Optional[int]
     first_name: Optional[str]
